@@ -20,7 +20,7 @@ KCONF_BSP_AUDIT_LEVEL = "2"
 SRCREV_machine ?= "19cd9d8c4bafb673a03b2d7c22407d7c8d192a96"
 SRCREV_meta ?= "9f8ee63473567964331b9465fa1aba301a9a725b"
 
-PV = "${LINUX_VERSION}+git${SRCPV}"
+PV = "${LINUX_VERSION}+git"
 
 SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=machine;protocol=https \
            git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=yocto-6.1;destsuffix=${KMETA};protocol=https"
